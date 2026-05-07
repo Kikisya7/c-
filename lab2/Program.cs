@@ -35,7 +35,7 @@ public class Program
             Console.Write(msg);
 
             string input = Console.ReadLine();
-            input = input.Trim(); // 🔥 ВОТ ИСПРАВЛЕНИЕ
+            input = input.Trim(); 
 
             if (int.TryParse(input, out x) && x >= min && x <= max)
                 return x;
